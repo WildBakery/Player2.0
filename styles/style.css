@@ -1,4 +1,83 @@
 *{
     margin: 0px;
     padding:0px;
+    font-family: PTSans-Regular;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0.16px;
+}
+header{
+    padding: 29px 0 0 0;
+    height:58px;
+}
+.logo{
+    float:left;
+    width: 100px;
+    height:80px;
+
+}
+.logo img{
+    padding: 1px 27px;
+    display: block;
+    max-width: 100%;
+
+}
+.search{
+    margin-bottom:20px ;
+}
+.search input[type=text]{
+    margin: 20px 0 auto 200px;
+    width: 395px;
+    height: 35px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+}
+.search input[type=button]{
+    background: url(http://iconizer.net/files/Token/orig/Search.png);
+}
+.profile{
+    float: right;
+    margin-top: -50px;
+    margin-right: 150px;
+    }
+.oval{
+    float: right;
+    margin-top: -60px;
+    margin-right: 90px;
+    border: 1px solid #979797;
+    width:40px;
+    height:40px;
+}
+.oval img{
+    display: block;
+    max-width: 100%;
+}
+.playList{
+    margin-left: 10px;
+    margin-top: 100px;
+    width: 644px;
+    height:50px;
+    border: 1px solid #4A90E2;
+}
+.songLogo{
+width:50px;
+height:50px;
+}
+
+.songLogo img:hover{
+    opacity:0.7;
+}
+.songLogo img{
+    display: block;
+    max-width: 100%;
+}
+.art_name{
+    margin: -40px 100px 100px 100px;
+}
+.time{
+    float:right;
+    margin-top:-20px;
+}
+.tags{
+    margin-top:40px;
 }
